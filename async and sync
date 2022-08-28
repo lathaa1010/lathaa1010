@@ -1,0 +1,29 @@
+function getUserdata()
+{
+    setTimeout(()=>{
+    console.log("get user data");
+    },10000);
+}
+
+function getUsercont()
+{
+    console.log("Return user contact");
+}
+//getUserdata();
+//getUsercont();
+
+try{
+    console("Get user data");
+
+}
+catch(e)
+{
+    console.log("error get user data");
+
+}
+finally
+{
+    console.log("Return data");
+}
+
+getUsercont();
